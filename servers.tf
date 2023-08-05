@@ -3,7 +3,7 @@ resource "aws_instance" "frontend" {
   instance_type = "t3.small"
 
   tags = {
-    Name = "HelloWorld"
+    Name = "frontend"
   }
 }
 resource "aws_instance" "MongoDB" {
@@ -11,7 +11,7 @@ resource "aws_instance" "MongoDB" {
   instance_type = "t3.small"
 
   tags = {
-    Name = "HelloWorld"
+    Name = "MongoDB"
   }
 }
 resource "aws_instance" "Catalogue" {
@@ -19,7 +19,7 @@ resource "aws_instance" "Catalogue" {
   instance_type = "t3.small"
 
   tags = {
-    Name = "HelloWorld"
+    Name = "Catalogue"
   }
 }
 resource "aws_instance" "redis" {
@@ -27,7 +27,7 @@ resource "aws_instance" "redis" {
   instance_type = "t3.small"
 
   tags = {
-    Name = "HelloWorld"
+    Name = "redis"
   }
 }
 resource "aws_instance" "user" {
@@ -35,7 +35,7 @@ resource "aws_instance" "user" {
   instance_type = "t3.small"
 
   tags = {
-    Name = "HelloWorld"
+    Name = "user"
   }
 }
 resource "aws_instance" "cart" {
@@ -43,7 +43,7 @@ resource "aws_instance" "cart" {
   instance_type = "t3.small"
 
   tags = {
-    Name = "HelloWorld"
+    Name = "cart"
   }
 }
 resource "aws_instance" "Mysql" {
@@ -51,7 +51,7 @@ resource "aws_instance" "Mysql" {
   instance_type = "t3.small"
 
   tags = {
-    Name = "HelloWorld"
+    Name = "Mysql"
   }
 }
 resource "aws_instance" "shipping" {
@@ -59,7 +59,7 @@ resource "aws_instance" "shipping" {
   instance_type = "t3.small"
 
   tags = {
-    Name = "HelloWorld"
+    Name = "shipping"
   }
 }
 resource "aws_instance" "rabbitMQ" {
@@ -67,7 +67,7 @@ resource "aws_instance" "rabbitMQ" {
   instance_type = "t3.small"
 
   tags = {
-    Name = "HelloWorld"
+    Name = "rabbitMQ"
   }
 }
 resource "aws_instance" "payment" {
@@ -75,7 +75,7 @@ resource "aws_instance" "payment" {
   instance_type = "t3.small"
 
   tags = {
-    Name = "HelloWorld"
+    Name = "payment"
   }
 }
 resource "aws_instance" "dispatch" {
@@ -83,7 +83,7 @@ resource "aws_instance" "dispatch" {
   instance_type = "t3.small"
 
   tags = {
-    Name = "HelloWorld"
+    Name = "dispatch"
   }
 }
 
